@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/catalogs/default`,
+  pathPrefix: `/test-github-catalog`,
   siteMetadata: {
     title: 'album catalog',
     subtitle: 'sharing favourite solutions across tools and domains',
