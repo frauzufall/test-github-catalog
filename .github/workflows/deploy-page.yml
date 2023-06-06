@@ -35,6 +35,7 @@ jobs:
 
       - name: Install and Build
         run: |
+          rm -f -R public
           cd gatsby
           npm install
           ./node_modules/.bin/gatsby build --prefix-paths
